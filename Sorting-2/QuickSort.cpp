@@ -31,7 +31,7 @@ void quickSort(vector<int> &arr, int low, int high)
 {
     if (low < high)
     {
-        cout<<"I work"<<endl;
+        cout << "I work" << endl;
         int partition = findPartition(arr, low, high);
 
         quickSort(arr, low, partition - 1);
